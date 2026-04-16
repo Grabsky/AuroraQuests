@@ -49,4 +49,5 @@ public class ObjectiveType {
     public static final String TRAVEL = "TRAVEL";
     public static final String PLAY_TIME = "PLAY_TIME";
     public static final String UNLOCK_VAULT = "UNLOCK_VAULT";
+    public static final String BLOCK_BRUSH = "BLOCK_BRUSH";
 }
