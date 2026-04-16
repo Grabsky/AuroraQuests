@@ -195,6 +195,7 @@ public class AuroraQuests extends AuroraQuestsPlugin implements Listener {
     private void registerObjectives() {
         ObjectiveFactory.registerObjective(ObjectiveType.BLOCK_LOOT, BlockLootObjective.class);
         ObjectiveFactory.registerObjective(ObjectiveType.BLOCK_BREAK, BlockBreakObjective.class);
+        ObjectiveFactory.registerObjective(ObjectiveType.BLOCK_BRUSH, BlockBrushObjective.class);
         ObjectiveFactory.registerObjective(ObjectiveType.BLOCK_SHEAR, BlockShearObjective.class);
         ObjectiveFactory.registerObjective(ObjectiveType.BLOCK_SHEAR_LOOT, BlockShearLootObjective.class);
         ObjectiveFactory.registerObjective(ObjectiveType.BREED, BreedingObjective.class);
